@@ -5,12 +5,55 @@
 
   th, td {
     border: 1px solid #000;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
   }
 
   th {
-    background-color: #ccc;
+    background-color: #AAA;
+  }
+  
+  td  {
+	  /*background-color:red;*/
+  }
+  
+  td.DWES{
+	  background-color: red;
+	  
+  }
+  
+  td.DWEC{
+	  background-color: green;
+	  
+  }
+  td.DWEC.individual{
+	  background-color: blue;
+	  
+  }
+  
+  td.hora{
+	  width:10%;
+  }
+  
+  td.hueco{
+	  width:16%;
+  }
+  
+  
+  p.asignatura {
+	text-align:left;
+	font-size:1.2em;
+	font-weight: bold;
+	margin:0;
+	position:relative;
+	top:0px;
+  }
+  
+  p.aula {
+	text-align:right;
+	position:relative;
+	bottom:0px;
+	margin:0;
   }
 
   th.course {
@@ -18,33 +61,12 @@
 	background-color:yellow;
   }
 
-  th.time {
-    background-color: #333;
-    color: #fff;
-  }
 
-  td.subject {
-    background-color: #ffcccb;
+  
+  .asignatura{
+	  color:blue;
   }
-
-  td.subject:first-child {
-    border-left: none;
-  }
-
-  td.professor {
-    font-style: italic;
-    text-align: center;
-  }
-
-  td.classroom {
-    font-size: 0.8em;
-    text-align: right;
-  }
-
-  td.subject.double {
-    border-right: none;
-  }
-
-  td.freetime {
-    border: none;
+  
+  p.aula{
+	  color:red;
   }
