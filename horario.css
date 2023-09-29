@@ -1,0 +1,50 @@
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #ccc;
+  }
+
+  th.course {
+    text-align: center;
+	background-color:yellow;
+  }
+
+  th.time {
+    background-color: #333;
+    color: #fff;
+  }
+
+  td.subject {
+    background-color: #ffcccb;
+  }
+
+  td.subject:first-child {
+    border-left: none;
+  }
+
+  td.professor {
+    font-style: italic;
+    text-align: center;
+  }
+
+  td.classroom {
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  td.subject.double {
+    border-right: none;
+  }
+
+  td.freetime {
+    border: none;
+  }
