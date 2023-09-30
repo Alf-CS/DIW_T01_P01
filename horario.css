@@ -9,97 +9,83 @@
 		text-align: center;
 	}
 
-	th {
+	th, td.dia, td.recreo {
 		background-color: #AAA;
 	}
-
-   	td.dia {
-		background-color: #AAA;
+	  
+	td.hueco p{
+		color: white;
 	}
 
-	td.recreo {
-		background-color: #AAA;
+    td.hueco{
+		width:16%;
+  	}
+
+	td.hora{
+		width:10%;
+  	}
+  
+
+	td.DWES{
+		background-color: rgb(103, 62, 239, 0.8);  
+  	}
+  	td.DWES.individual{
+		background-color:  rgba(103, 62, 239, 0.4);
+  	}
+  
+  	td.DWEC{
+		background-color: rgb(40, 245, 40, 0.8);
+  	}
+  	td.DWEC.individual{
+		background-color: rgb(40, 245, 40, 0.4);  
 	}
-  	  
-	td.hueco{
-		foreground-color: #EEE;
+
+  	td.DIW{
+		background-color: rgb(128, 128, 0, 0.8);
+  	}
+  	td.DIW.individual{
+		background-color: rgb(128, 128, 0, 0.4);
+  	}
+  
+  	td.EIE{
+		background-color: rgb(220, 22, 22, 0.8);
+  	}
+  	td.EIE.individual{
+		background-color: rgb(220, 22, 22, 0.4);
+  	}
+  
+  	td.DAW{
+		background-color: rgb(33, 197, 170, 0.8);
+  	}
+  	td.DAW.individual{
+		background-color: rgb(33, 197, 170, 0.4);
+  	}
+   
+
+  
+	p.aula{
+		color:rgb(149, 1, 1);
+
 	}
 
-  td.DWES{
-	  background-color: rgb(103, 62, 239, 0.8);  
-  }
-  td.DWES.individual{
-	  background-color:  rgba(103, 62, 239, 0.5);
-  }
+  	.asignatura {
+		color:blue;
+		text-align:left;
+		font-size:1.2em;
+		font-weight: bold;
+		margin:0;
+		position:relative;
+		top:0px;
+  	}
   
-  td.DWEC{
-	  background-color: rgb(40, 245, 40, 0.8);
-  }
-  td.DWEC.individual{
-	  background-color: rgb(40, 245, 40, 0.5);
-  }
+    p.aula {
+		text-align:right;
+		position:relative;
+		bottom:0px;
+		margin:0;
+  	}
 
-  td.DIW{
-	  background-color: rgb(128, 128, 0);
-  }
-  td.DIW.individual{
-	  background-color: rgb(128, 128, 0, 0.3);
-  }
-  
-  td.EIE{
-	  background-color: rgb(220, 22, 22);
-  }
-  td.EIE.individual{
-	  background-color: rgb(220, 22, 22, 0.1);
-  }
-  
-  td.DAW{
-	  background-color: rgb(33, 197, 170);
-  }
-  td.DAW.individual{
-	  background-color: rgb(33, 197, 170, 0.1);
-  }
-  
-  
-  
-  
-  
-  td.hora{
-	  width:10%;
-  }
-  
-  td.hueco{
-	  width:16%;
-  }
-  
-  
-  p.asignatura {
-	text-align:left;
-	font-size:1.2em;
-	font-weight: bold;
-	margin:0;
-	position:relative;
-	top:0px;
-  }
-  
-  p.aula {
-	text-align:right;
-	position:relative;
-	bottom:0px;
-	margin:0;
-  }
-
-  th.course {
-    text-align: center;
-	background-color:yellow;
-  }
-
-
-  
-  .asignatura{
-	  color:blue;
-  }
-  
-  p.aula{
-	  color:red;
-  }
+	th.course {
+    	text-align: center;
+		background-color:yellow;
+  	}
