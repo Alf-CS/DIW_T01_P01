@@ -12,14 +12,15 @@
 	th, td.dia, td.recreo {
 		background-color: #AAA;
 	}
-	  
+
+	td.hueco{
+		width:16%;
+		border:0px;
+  	}
+
 	td.hueco p{
 		color: white;
 	}
-
-    td.hueco{
-		width:16%;
-  	}
 
 	td.hora{
 		width:10%;
@@ -30,35 +31,35 @@
 		background-color: rgb(103, 62, 239, 0.8);  
   	}
   	td.DWES.individual{
-		background-color:  rgba(103, 62, 239, 0.4);
+		background-color:  rgba(103, 62, 239, 0.8);    /* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
   	}
   
   	td.DWEC{
 		background-color: rgb(40, 245, 40, 0.8);
   	}
   	td.DWEC.individual{
-		background-color: rgb(40, 245, 40, 0.4);  
+		background-color: rgb(40, 245, 40, 0.8);  		/* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
 	}
 
   	td.DIW{
 		background-color: rgb(128, 128, 0, 0.8);
   	}
   	td.DIW.individual{
-		background-color: rgb(128, 128, 0, 0.4);
+		background-color: rgb(128, 128, 0, 0.8);		/* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
   	}
   
   	td.EIE{
 		background-color: rgb(220, 22, 22, 0.8);
   	}
   	td.EIE.individual{
-		background-color: rgb(220, 22, 22, 0.4);
+		background-color: rgb(220, 22, 22, 0.8);		/* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
   	}
   
   	td.DAW{
 		background-color: rgb(33, 197, 170, 0.8);
   	}
   	td.DAW.individual{
-		background-color: rgb(33, 197, 170, 0.4);
+		background-color: rgb(33, 197, 170, 0.8);		/* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
   	}
    
   	.asignatura {
