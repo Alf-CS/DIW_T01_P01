@@ -61,15 +61,8 @@
 		background-color: rgb(33, 197, 170, 0.4);
   	}
    
-
-  
-	p.aula{
-		color:rgb(149, 1, 1);
-
-	}
-
   	.asignatura {
-		color:blue;
+		color:rgb(27, 8, 135);
 		text-align:left;
 		font-size:1.2em;
 		font-weight: bold;
@@ -77,15 +70,21 @@
 		position:relative;
 		top:0px;
   	}
+	
+	.doble .asignatura{
+		position:relative;
+		top: -50px;
+	}
   
-    p.aula {
+    .aula {
+		color:rgb(149, 1, 1);
 		text-align:right;
 		position:relative;
 		bottom:0px;
 		margin:0;
   	}
-
-	th.course {
-    	text-align: center;
-		background-color:yellow;
-  	}
+	
+	.doble .aula{
+		position:relative;
+		bottom: -50px;
+	}
