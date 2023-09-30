@@ -1,35 +1,68 @@
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	  }
 
-  th, td {
-    border: 1px solid #000;
-    padding: 2px;
-    text-align: center;
-  }
+	th, td {
+		border: 1px solid black;
+		padding: 2px;
+		text-align: center;
+	}
 
-  th {
-    background-color: #AAA;
-  }
-  
-  td  {
-	  /*background-color:red;*/
-  }
-  
+	th {
+		background-color: #AAA;
+	}
+
+   	td.dia {
+		background-color: #AAA;
+	}
+
+	td.recreo {
+		background-color: #AAA;
+	}
+  	  
+	td.hueco{
+		foreground-color: #EEE;
+	}
+
   td.DWES{
-	  background-color: red;
-	  
+	  background-color: rgb(103, 62, 239, 0.8);  
+  }
+  td.DWES.individual{
+	  background-color:  rgba(103, 62, 239, 0.5);
   }
   
   td.DWEC{
-	  background-color: green;
-	  
+	  background-color: rgb(40, 245, 40, 0.8);
   }
   td.DWEC.individual{
-	  background-color: blue;
-	  
+	  background-color: rgb(40, 245, 40, 0.5);
   }
+
+  td.DIW{
+	  background-color: rgb(128, 128, 0);
+  }
+  td.DIW.individual{
+	  background-color: rgb(128, 128, 0, 0.3);
+  }
+  
+  td.EIE{
+	  background-color: rgb(220, 22, 22);
+  }
+  td.EIE.individual{
+	  background-color: rgb(220, 22, 22, 0.1);
+  }
+  
+  td.DAW{
+	  background-color: rgb(33, 197, 170);
+  }
+  td.DAW.individual{
+	  background-color: rgb(33, 197, 170, 0.1);
+  }
+  
+  
+  
+  
   
   td.hora{
 	  width:10%;
