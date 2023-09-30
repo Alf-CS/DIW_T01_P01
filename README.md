@@ -3,6 +3,8 @@ Ejercicio DIW - Tema 1 - Práctica 1 - TABLA DE HORARIO
 
 **SOLUCIÓN EN https://github.com/Alf-CS/DIW_T01_P01**
 
+**Alfonso Cortés Santiago**
+
 
 ver el PDF para un ejemplo de resultado buscado
 
