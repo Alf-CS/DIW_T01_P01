@@ -1,6 +1,9 @@
 # DIW_T01_P01
 Ejercicio DIW - Tema 1 - Práctica 1 - TABLA DE HORARIO
 
+**SOLUCIÓN EN https://github.com/Alf-CS/DIW_T01_P01**
+
+
 ver el PDF para un ejemplo de resultado buscado
 
 Actividad 1: Horario
