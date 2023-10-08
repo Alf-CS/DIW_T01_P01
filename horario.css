@@ -3,8 +3,8 @@
 		width: 100%;
 	  }
 
-	th, td {
-		border: 1px solid black;
+	th, td {     					
+		border: 3px solid black;
 		padding: 2px;
 		text-align: center;
 	}
@@ -13,7 +13,11 @@
 		background-color: #AAA;
 	}
 
-	td.hueco{
+	td.recreo{
+		border:0px;
+	}
+
+	td.hueco, td.DAW{
 		width:16%;
 		border:0px;
   	}
@@ -61,6 +65,10 @@
   	td.DAW.individual{
 		background-color: rgb(33, 197, 170, 0.8);		/* Podríamos cambiar por ejemplo, la intensidad de 0.8 a 0.3 para indicar que no es clase colectiva.*/
   	}
+
+	td.Ingles{
+		background-color: rgba(33, 197, 58, 0.795);
+	}
    
   	.asignatura {
 		color:rgb(27, 8, 135);
